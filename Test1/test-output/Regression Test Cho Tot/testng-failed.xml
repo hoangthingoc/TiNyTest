@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Regression Test Cho Tot]">
+  <parameter name="testsuite" value="ChoTotLogin"/>
+  <parameter name="browsers" value="Chrome"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="1" name="ChoTot(failed)">
+    <classes>
+      <class name="tests.choTotTestSuite.ChoTotLogin001">
+        <methods>
+          <include name="ChoTotLogin_001"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- tests.choTotTestSuite.ChoTotLogin001 -->
+    </classes>
+  </test> <!-- ChoTot(failed) -->
+</suite> <!-- Failed suite [Regression Test Cho Tot] -->

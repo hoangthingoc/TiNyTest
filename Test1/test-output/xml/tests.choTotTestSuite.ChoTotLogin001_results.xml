@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChoTot"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="33.721">
+  <properties />
+  
+  
+            <testcase name="ChoTotLogin_001" time="33.721" classname="tests.choTotTestSuite.ChoTotLogin001" />
+      
+</testsuite>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[TC Name :  Verify login successful when enter a valid loginID and password values]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Navigate to homepage and go to the Login function]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Login on the website]]>
+    </line>
+    <line>
+      <![CDATA[Step 2.1: Click on Login Link:]]>
+    </line>
+    <line>
+      <![CDATA[Step 2.2: Enter a valid username]]>
+    </line>
+    <line>
+      <![CDATA[Step 2.3: Enter a valid password]]>
+    </line>
+    <line>
+      <![CDATA[Step 2.4: Click on [Sign in] button]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Click on People Setting icon]]>
+    </line>
+    <line>
+      <![CDATA[Step 4.1: Click on Add People menu]]>
+    </line>
+    <line>
+      <![CDATA[Step 4.2: Add the 1st user into list]]>
+    </line>
+    <line>
+      <![CDATA[Step 4.3: Add the 2nd user into list]]>
+    </line>
+    <line>
+      <![CDATA[Step 4.4: Add the 3rd user into list]]>
+    </line>
+    <line>
+      <![CDATA[Step 4.5: Click on Add People button]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Verify Congratulation display]]>
+    </line>
+    <line>
+      <![CDATA[<img class='report-img' height='150' width='150' data-featherlight='file:///Z:\Test\Test1/test-output/WebCaptures06_2020\06_19_2020\ScreenShotsSmoke\tests.TestSuite.Login001.jpg' src='file:///Z:\Test\Test1/test-output/WebCaptures06_2020\06_19_2020\ScreenShotsSmoke\tests.TestSuite.Login001.jpg'>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="97427" started-at="2020-06-19T15:39:25 ICT" finished-at="2020-06-19T15:41:03 ICT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="97427" started-at="2020-06-19T15:39:25 ICT" finished-at="2020-06-19T15:41:03 ICT">
+      <class name="tests.TestSuite.Login001">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:tests.TestSuite.Login001@59717824]" name="beforeSuite" is-config="true" duration-ms="868" started-at="2020-06-19T15:39:24 ICT" finished-at="2020-06-19T15:39:25 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[REG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:tests.TestSuite.Login001@59717824]" name="beforeClass" is-config="true" duration-ms="13" started-at="2020-06-19T15:39:25 ICT" finished-at="2020-06-19T15:39:25 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="ChoTotLogin_001(org.openqa.selenium.WebDriver, org.openqa.selenium.support.ui.WebDriverWait)[pri:0, instance:tests.TestSuite.Login001@59717824]" name="ChoTotLogin_001" duration-ms="92020" started-at="2020-06-19T15:39:30 ICT" data-provider="scenarioProvider" finished-at="2020-06-19T15:41:02 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ChromeDriver: chrome on XP (null)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.openqa.selenium.support.ui.WebDriverWait@70efb718]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TC Name :  Verify login successful when enter a valid loginID and password values]]>
+            </line>
+            <line>
+              <![CDATA[Step 1: Navigate to homepage and go to the Login function]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Login on the website]]>
+            </line>
+            <line>
+              <![CDATA[Step 2.1: Click on Login Link:]]>
+            </line>
+            <line>
+              <![CDATA[Step 2.2: Enter a valid username]]>
+            </line>
+            <line>
+              <![CDATA[Step 2.3: Enter a valid password]]>
+            </line>
+            <line>
+              <![CDATA[Step 2.4: Click on [Sign in] button]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Click on People Setting icon]]>
+            </line>
+            <line>
+              <![CDATA[Step 4.1: Click on Add People menu]]>
+            </line>
+            <line>
+              <![CDATA[Step 4.2: Add the 1st user into list]]>
+            </line>
+            <line>
+              <![CDATA[Step 4.3: Add the 2nd user into list]]>
+            </line>
+            <line>
+              <![CDATA[Step 4.4: Add the 3rd user into list]]>
+            </line>
+            <line>
+              <![CDATA[Step 4.5: Click on Add People button]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Verify Congratulation display]]>
+            </line>
+            <line>
+              <![CDATA[<img class='report-img' height='150' width='150' data-featherlight='file:///Z:\Test\Test1/test-output/WebCaptures06_2020\06_19_2020\ScreenShotsSmoke\tests.TestSuite.Login001.jpg' src='file:///Z:\Test\Test1/test-output/WebCaptures06_2020\06_19_2020\ScreenShotsSmoke\tests.TestSuite.Login001.jpg'>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ChoTotLogin_001 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.TestSuite.Login001@59717824]" name="afterMethod" is-config="true" duration-ms="895" started-at="2020-06-19T15:41:02 ICT" finished-at="2020-06-19T15:41:03 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChoTotLogin_001 status=SUCCESS method=Login001.ChoTotLogin_001(org.openqa.selenium.WebDriver, org.openqa.selenium.support.ui.WebDriverWait)[pri:0, instance:tests.TestSuite.Login001@59717824] output=TC Name :  Verify login successful when enter a valid loginID and password values]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.TestSuite.Login001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
